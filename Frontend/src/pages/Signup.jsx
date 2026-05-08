@@ -36,6 +36,7 @@ function Signup() {
 
       console.log("User Created", res.data);
       alert("User Created Successfully 👍🏻");
+      navigate("/login");
 
     } catch (err) {
   console.log("ERROR FULL:", err);
